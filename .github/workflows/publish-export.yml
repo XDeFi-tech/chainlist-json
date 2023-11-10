@@ -1,0 +1,35 @@
+name: Update Export JSON
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # Runs everyday at 6am
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  update-export-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: |
+          npm install
+
+      - name: Run npm start
+        run: |
+          npm start
+
+      - name: Commit changes
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "cicd@xdefi.io"
+          git add export.json
+          git commit -m "Update export.json [skip ci]"
+          git push
