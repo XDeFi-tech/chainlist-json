@@ -574,7 +574,10 @@
     "wss://iris-evm.publicnode.com",
     "https://iris-evm.publicnode.com"
   ],
-  "7001": [],
+  "7001": [
+    "https://rpc-proxy.xdefi.services/zetachain/rpc/testnet/",
+    "https://zetachain-athens-evm.blockpi.network/v1/rpc/public"
+  ],
   "7341": [
     "https://rpc.shyft.network/"
   ],
