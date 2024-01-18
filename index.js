@@ -5,13 +5,14 @@ const fs = require("fs");
 async function getRpcLatency(url) {
   const start = Date.now();
   try {
-    await axios.get(url, {
+    await axios.post(url, {
       timeout: 3000, // 3 seconds timeout
       httpsAgent: new https.Agent({ keepAlive: true }),
     });
     const latency = Date.now() - start;
     return { url, latency };
   } catch (error) {
+    // console.error({ error });
     return { url, latency: Infinity };
   }
 }
@@ -71,7 +72,26 @@ async function processRpcs() {
       );
       console.log("Processing RPCs for network:", networkId);
       const sortedRpcList = await sortAndFilterRpcs(rpcs);
+      // console.log({ sortedRpcList, rpcs });
       finalSortedRpcs[networkId] = sortedRpcList;
+    }
+
+    try {
+      // overrides rpc
+      const overrides = fs.readFileSync("overrides.json", "utf8");
+      const overridesObject = JSON.parse(overrides);
+      const networkIdsOverrides = Object.keys(overridesObject);
+      for (let i = 0; i < networkIdsOverrides.length; i++) {
+        const networkId = networkIdsOverrides[i];
+        const rpcs = overridesObject[networkId];
+        console.log("Processing RPCs for network:", networkId);
+        finalSortedRpcs[networkId] = [
+          ...rpcs,
+          ...(finalSortedRpcs[networkId] || []),
+        ];
+      }
+    } catch (error) {
+      console.error("Failed to load overrides.json file");
     }
 
     const jsonString = JSON.stringify(finalSortedRpcs, null, 2);
