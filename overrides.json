@@ -1,3 +1,4 @@
 {
+  "7000": ["https://zetachain-evm.blockpi.network/v1/rpc/public"],
   "7001": ["https://rpc-proxy.xdefi.services/zetachain/rpc/testnet/"]
 }
