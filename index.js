@@ -1,17 +1,30 @@
 const axios = require("axios");
 const https = require("https");
 const fs = require("fs");
+const CancelToken = axios.CancelToken;
 
 async function getRpcLatency(url) {
   const start = Date.now();
   try {
-    await axios.post(url, {
-      timeout: 3000, // 3 seconds timeout
-      httpsAgent: new https.Agent({ keepAlive: true }),
-    });
+    const source = CancelToken.source();
+    setTimeout(() => {
+      source.cancel(`Request to ${url} timed out`);
+    }, 10000); // 10 seconds timeout
+    await axios.post(
+      url,
+      {},
+      {
+        timeout: 3000,
+        httpsAgent: new https.Agent({ keepAlive: true }),
+        cancelToken: source.token,
+      }
+    );
     const latency = Date.now() - start;
     return { url, latency };
   } catch (error) {
+    if (axios.isCancel(error)) {
+      console.log("Request canceled:", error.message);
+    }
     // console.error({ error });
     return { url, latency: Infinity };
   }
