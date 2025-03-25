@@ -1,32 +1,34 @@
 {
   "1": [
-    "wss://ethereum-rpc.publicnode.com",
-    "https://eth-mainnet.nodereal.io/v1/1659dfb40aa24bbb8153a677b98064d7",
     "https://1rpc.io/eth",
-    "https://virginia.rpc.blxrbdn.com/",
+    "https://eth-mainnet.nodereal.io/v1/1659dfb40aa24bbb8153a677b98064d7",
+    "wss://ethereum-rpc.publicnode.com",
+    "https://go.getblock.io/aefd01aa907c4805ba3c00a9e5b48c6b",
     "https://rpc.flashbots.net/",
     "https://uk.rpc.blxrbdn.com/",
+    "https://virginia.rpc.blxrbdn.com/",
     "https://rpc.mevblocker.io",
-    "https://eth.rpc.blxrbdn.com/",
     "https://cloudflare-eth.com/",
     "https://api.securerpc.com/v1",
+    "https://eth.rpc.blxrbdn.com/",
     "https://singapore.rpc.blxrbdn.com/",
     "https://ethereum.blockpi.network/v1/rpc/public",
     "https://eth-mainnet-public.unifra.io",
     "https://eth-pokt.nodies.app",
     "https://openapi.bitstack.com/v1/wNFxbiJyQsSeLrX8RRCHi7NpRxrlErZk/DjShIqLishPCTB9HiMkPHXjUM9CNM9Na/ETH/mainnet",
-    "https://rpc.eth.gateway.fm",
     "https://eth-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
+    "https://rpc.eth.gateway.fm",
     "https://eth.meowrpc.com",
     "https://eth.merkle.io",
     "https://eth.nodeconnect.org/",
     "https://eth.blockrazor.xyz",
+    "https://endpoints.omniatech.io/v1/eth/mainnet/public",
     "wss://ethereum.callstaticrpc.com",
-    "https://eth1.lava.build",
-    "wss://0xrpc.io/eth"
+    "https://eth1.lava.build"
   ],
   "2": [
-    "https://node.expanse.tech"
+    "https://node.expanse.tech",
+    "https://node.eggs.cool"
   ],
   "3": [],
   "4": [],
@@ -37,12 +39,13 @@
   ],
   "8": [],
   "10": [
-    "https://op-pokt.nodies.app",
     "https://1rpc.io/op",
-    "wss://optimism-rpc.publicnode.com",
+    "https://op-pokt.nodies.app",
     "https://optimism.blockpi.network/v1/rpc/public",
+    "wss://optimism-rpc.publicnode.com",
     "https://optimism.meowrpc.com",
     "https://go.getblock.io/e8a75f8dcf614861becfbcb185be6eb4",
+    "https://endpoints.omniatech.io/v1/op/mainnet/public",
     "https://optimism.lava.build",
     "wss://0xrpc.io/op"
   ],
@@ -70,8 +73,8 @@
     "https://rpc.kardiachain.io"
   ],
   "25": [
-    "wss://cronos-evm-rpc.publicnode.com",
     "https://evm.cronos.org",
+    "wss://cronos-evm-rpc.publicnode.com",
     "https://1rpc.io/cro"
   ],
   "27": [],
@@ -103,25 +106,25 @@
   ],
   "44": [],
   "50": [
-    "https://erpc.xinfin.network",
     "https://rpc1.xinfin.network",
     "https://rpc.xdcrpc.com",
+    "https://erpc.xinfin.network",
     "https://erpc.xdcrpc.com",
     "https://erpc.xinfin.network/",
     "https://earpc.xinfin.network/",
     "https://rpc.xdc.org"
   ],
   "51": [
+    "https://earpc.apothem.network/",
     "https://erpc.apothem.network/",
-    "https://erpc.apothem.network",
-    "https://earpc.apothem.network/"
+    "https://erpc.apothem.network"
   ],
   "52": [
     "https://rpc1.coinex.net/",
     "https://rpc.coinex.net/",
     "https://rpc4.coinex.net/",
-    "https://rpc2.coinex.net/",
-    "https://rpc3.coinex.net/"
+    "https://rpc3.coinex.net/",
+    "https://rpc2.coinex.net/"
   ],
   "55": [
     "https://rpc-2.zyx.network/",
@@ -129,13 +132,12 @@
   ],
   "56": [
     "https://rpc-bsc.48.club",
-    "https://bsc-dataseed6.dict.life/",
     "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
-    "https://0.48.club",
     "https://bsc-pokt.nodies.app",
+    "https://0.48.club",
     "https://bsc-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
-    "https://bsc.rpc.blxrbdn.com/",
     "https://1rpc.io/bnb",
+    "https://bsc.rpc.blxrbdn.com/",
     "wss://bsc-rpc.publicnode.com",
     "https://bsc.meowrpc.com",
     "https://bsc.blockrazor.xyz",
@@ -143,14 +145,14 @@
     "https://endpoints.omniatech.io/v1/bsc/mainnet/public"
   ],
   "57": [
-    "https://rpc.syscoin.org",
-    "wss://syscoin-evm.publicnode.com"
+    "wss://syscoin-evm.publicnode.com",
+    "https://rpc.syscoin.org"
   ],
   "58": [
     "https://dappnode3.ont.io:10339",
-    "https://dappnode2.ont.io:10339",
+    "https://dappnode1.ont.io:10339",
     "https://dappnode4.ont.io:10339",
-    "https://dappnode1.ont.io:10339"
+    "https://dappnode2.ont.io:10339"
   ],
   "59": [
     "https://api.eosargentina.io"
@@ -158,8 +160,8 @@
   "60": [],
   "61": [
     "https://geth-at.etc-network.info",
-    "https://rpc.etcinscribe.com",
     "https://etc.etcdesktop.com",
+    "https://rpc.etcinscribe.com",
     "https://etc.mytokenpocket.vip",
     "wss://0xrpc.io/etc"
   ],
@@ -204,21 +206,21 @@
   "92": [],
   "93": [],
   "96": [
-    "wss://wss.bitkubchain.io",
-    "https://rpc.bitkubchain.io"
+    "https://rpc.bitkubchain.io",
+    "wss://wss.bitkubchain.io"
   ],
   "97": [
     "wss://bsc-testnet-rpc.publicnode.com"
   ],
   "99": [],
   "100": [
+    "https://rpc.gnosis.gateway.fm",
     "https://gnosis-pokt.nodies.app",
     "https://rpc.gnosischain.com",
-    "https://rpc.gnosis.gateway.fm",
     "https://endpoints.omniatech.io/v1/gnosis/mainnet/public",
     "https://rpc.ap-southeast-1.gateway.fm/v4/gnosis/non-archival/mainnet",
-    "wss://gnosis-rpc.publicnode.com",
     "https://1rpc.io/gnosis",
+    "wss://gnosis-rpc.publicnode.com",
     "wss://0xrpc.io/gno"
   ],
   "101": [],
@@ -251,7 +253,6 @@
   "131": [],
   "133": [],
   "137": [
-    "https://1rpc.io/matic",
     "https://polygon-pokt.nodies.app",
     "https://polygon-rpc.com",
     "wss://polygon-bor-rpc.publicnode.com",
@@ -271,12 +272,11 @@
   "163": [],
   "167": [],
   "169": [
+    "https://manta-pacific-gascap.calderachain.xyz/http",
     "https://1rpc.io/manta",
     "https://pacific-rpc.manta.network/http",
-    "https://manta-pacific-gascap.calderachain.xyz/http",
     "https://r1.pacific.manta.systems/http",
-    "https://manta.nirvanalabs.xyz/mantapublic",
-    "https://endpoints.omniatech.io/v1/manta-pacific/mainnet/public"
+    "https://manta.nirvanalabs.xyz/mantapublic"
   ],
   "177": [],
   "184": [
@@ -307,16 +307,16 @@
   ],
   "248": [
     "https://oasys.blockpi.network/v1/rpc/public",
-    "https://rpc.mainnet.oasys.games",
-    "https://oasys.rpc.grove.city/v1/167fa7a3"
+    "https://oasys.rpc.grove.city/v1/167fa7a3",
+    "https://rpc.mainnet.oasys.games"
   ],
   "250": [
     "https://rpcapi.fantom.network",
-    "https://fantom-pokt.nodies.app",
     "https://rpc.fantom.network",
-    "https://1rpc.io/ftm",
+    "https://fantom-pokt.nodies.app",
     "https://rpc3.fantom.network",
     "https://rpc2.fantom.network",
+    "https://1rpc.io/ftm",
     "wss://fantom-rpc.publicnode.com",
     "https://fantom-json-rpc.stakely.io",
     "wss://fantom.callstaticrpc.com"
@@ -351,7 +351,6 @@
     "https://rpc-mainnet.kcc.network"
   ],
   "324": [
-    "https://zksync.meowrpc.com",
     "https://1rpc.io/zksync2-era"
   ],
   "333": [],
@@ -380,11 +379,11 @@
   ],
   "420": [],
   "463": [
-    "https://mainnet-rpc2.areon.network",
     "https://mainnet-rpc4.areon.network",
+    "https://mainnet-rpc.areon.network",
     "https://mainnet-rpc5.areon.network",
     "https://mainnet-rpc3.areon.network",
-    "https://mainnet-rpc.areon.network"
+    "https://mainnet-rpc2.areon.network"
   ],
   "480": [
     "wss://worldchain-mainnet.gateway.tenderly.co",
@@ -410,8 +409,8 @@
     "https://evm.astar.network/",
     "https://getblock.io/nodes/bsc/",
     "wss://astar.api.onfinality.io/public-ws",
-    "https://astar.api.onfinality.io/public",
     "https://astar-rpc.dwellir.com",
+    "https://astar.api.onfinality.io/public",
     "https://astar.public.curie.radiumblock.co/ws",
     "https://astar.public.curie.radiumblock.co/http"
   ],
@@ -452,8 +451,8 @@
   ],
   "943": [
     "wss://pulsechain-testnet-rpc.publicnode.com",
-    "https://rpc-testnet-pulsechain.g4mm4.io",
-    "https://rpc.v4.testnet.pulsechain.com"
+    "https://rpc.v4.testnet.pulsechain.com",
+    "https://rpc-testnet-pulsechain.g4mm4.io"
   ],
   "977": [],
   "996": [
@@ -476,17 +475,17 @@
     "https://api-para.clover.finance"
   ],
   "1030": [
-    "https://conflux-espace.blockpi.network/v1/rpc/public",
     "https://conflux-espace-public.unifra.io",
+    "https://conflux-espace.blockpi.network/v1/rpc/public",
     "https://evm.confluxrpc.com"
   ],
   "1072": [],
   "1075": [],
   "1088": [
-    "https://andromeda.metis.io/?owner=1088",
     "https://metis-pokt.nodies.app",
-    "https://metis-pokt.nodies.app/",
+    "https://andromeda.metis.io/?owner=1088",
     "https://metis-andromeda.rpc.thirdweb.com/",
+    "https://metis-pokt.nodies.app/",
     "https://metis.rpc.hypersync.xyz/"
   ],
   "1089": [
@@ -509,8 +508,8 @@
     "https://rpc.test.btcs.network"
   ],
   "1116": [
-    "https://core.public.infstones.com",
     "https://rpc.coredao.org",
+    "https://core.public.infstones.com",
     "https://1rpc.io/core"
   ],
   "1130": [
@@ -541,26 +540,27 @@
   "1284": [
     "wss://moonbeam.api.onfinality.io/public-ws",
     "https://moonbeam.api.onfinality.io/public",
-    "https://rpc.api.moonbeam.network",
     "https://moonbeam.unitedbloc.com:3000",
+    "https://rpc.api.moonbeam.network",
     "https://1rpc.io/glmr",
     "https://endpoints.omniatech.io/v1/moonbeam/mainnet/public",
     "https://moonbeam-rpc.dwellir.com",
-    "wss://moonbeam-rpc.publicnode.com",
-    "https://moonbeam-rpc.publicnode.com"
+    "https://moonbeam-rpc.publicnode.com",
+    "wss://moonbeam-rpc.publicnode.com"
   ],
   "1285": [
-    "wss://moonriver.api.onfinality.io/public-ws",
     "https://moonriver.api.onfinality.io/public",
     "https://rpc.api.moonriver.moonbeam.network",
+    "wss://moonriver.api.onfinality.io/public-ws",
+    "https://moonriver.unitedbloc.com:2000",
     "https://moonriver-rpc.publicnode.com",
     "https://moonriver-rpc.dwellir.com",
     "wss://moonriver-rpc.publicnode.com"
   ],
   "1287": [
+    "https://moonbeam-alpha.api.onfinality.io/public",
     "https://rpc.testnet.moonbeam.network",
     "https://moonbase.unitedbloc.com:1000",
-    "https://moonbeam-alpha.api.onfinality.io/public",
     "wss://moonbeam-alpha.api.onfinality.io/public-ws"
   ],
   "1288": [],
@@ -569,9 +569,9 @@
   ],
   "1319": [
     "https://aia-dataseed4.aiachain.org",
+    "https://aia-dataseed3.aiachain.org",
     "https://aia-dataseed1.aiachain.org",
-    "https://aia-dataseed2.aiachain.org",
-    "https://aia-dataseed3.aiachain.org"
+    "https://aia-dataseed2.aiachain.org"
   ],
   "1328": [
     "https://evm-rpc-testnet.sei-apis.com"
@@ -583,8 +583,8 @@
     "https://rpc.atlantischain.network/"
   ],
   "1339": [
-    "https://rpc.elysiumchain.tech/",
-    "https://rpc.elysiumchain.us/"
+    "https://rpc.elysiumchain.us/",
+    "https://rpc.elysiumchain.tech/"
   ],
   "1440": [],
   "1442": [
@@ -595,21 +595,21 @@
     "https://evm-rpc-vana.josephtran.xyz"
   ],
   "1501": [
-    "https://rpc-canary-1.bevm.io/",
-    "https://rpc-canary-2.bevm.io/"
+    "https://rpc-canary-2.bevm.io/",
+    "https://rpc-canary-1.bevm.io/"
   ],
   "1506": [],
   "1513": [
     "https://evm-rpc-story.josephtran.xyz",
     "https://lightnode-json-rpc-story.grandvalleys.com",
-    "https://story-rpc-evm.mandragora.io",
     "https://story-rpc01.originstake.com",
+    "https://story-rpc-evm.mandragora.io",
     "https://rpc-storyevm-testnet.aldebaranode.xyz"
   ],
   "1514": [
     "https://mainnet.storyrpc.io",
-    "https://evm-rpc.story.mainnet.dteam.tech",
     "https://evm-rpc-story.j-node.net",
+    "https://evm-rpc.story.mainnet.dteam.tech",
     "https://story-evm-rpc.spidernode.net",
     "https://lightnode-json-rpc-mainnet-story.grandvalleys.com",
     "https://story-evm-rpc.krews.xyz",
@@ -651,8 +651,8 @@
     "https://replicator.phoenix.lightlink.io/rpc/v1"
   ],
   "1891": [
-    "https://replicator.pegasus.lightlink.io/rpc/v1",
-    "https://endpoints.omniatech.io/v1/lightlink/pegasus/public"
+    "https://endpoints.omniatech.io/v1/lightlink/pegasus/public",
+    "https://replicator.pegasus.lightlink.io/rpc/v1"
   ],
   "1946": [
     "https://rpc.minato.soneium.org/"
@@ -668,11 +668,11 @@
   "2000": [
     "https://rpc.dogechain.dog",
     "https://rpc.dogechain.dog",
+    "https://rpc01-sg.dogechain.dog",
     "https://rpc-sg.dogechain.dog",
     "https://rpc-us.dogechain.dog",
-    "https://rpc01-sg.dogechain.dog",
-    "https://rpc03-sg.dogechain.dog",
-    "https://rpc02-sg.dogechain.dog"
+    "https://rpc02-sg.dogechain.dog",
+    "https://rpc03-sg.dogechain.dog"
   ],
   "2014": [
     "https://rpc.nowscan.io"
@@ -694,13 +694,14 @@
   "2192": [],
   "2213": [],
   "2221": [
-    "https://evm.testnet.kava.io",
-    "https://kava-evm-testnet.rpc.thirdweb.com"
+    "https://kava-evm-testnet.rpc.thirdweb.com",
+    "https://evm.testnet.kava.io"
   ],
   "2222": [
+    "wss://kava-evm-rpc.publicnode.com",
     "https://kava-pokt.nodies.app",
     "https://evm.kava.io",
-    "wss://kava-evm-rpc.publicnode.com"
+    "https://kava.api.onfinality.io/public"
   ],
   "2323": [],
   "2330": [],
@@ -751,9 +752,9 @@
   "4162": [],
   "4181": [],
   "4200": [
-    "https://endpoints.omniatech.io/v1/merlin/mainnet/public",
     "https://merlin.blockpi.network/v1/rpc/public",
     "https://rpc.merlinchain.io",
+    "https://endpoints.omniatech.io/v1/merlin/mainnet/public",
     "https://endpoints.omniatech.io/v1/merlin/mainnet/public"
   ],
   "4202": [],
@@ -763,8 +764,8 @@
   "4444": [],
   "4689": [
     "https://babel-api.mainnet.iotex.one",
-    "https://rpc.depinscan.io/iotex",
     "https://babel-api.mainnet.iotex.io",
+    "https://rpc.depinscan.io/iotex",
     "https://babel-api.fastblocks.io",
     "https://rpc.chainanalytics.org/iotex",
     "https://iotex.api.onfinality.io/public",
@@ -776,8 +777,8 @@
   ],
   "5000": [
     "wss://mantle-rpc.publicnode.com",
-    "https://endpoints.omniatech.io/v1/mantle/mainnet/public",
-    "https://1rpc.io/mantle"
+    "https://1rpc.io/mantle",
+    "https://endpoints.omniatech.io/v1/mantle/mainnet/public"
   ],
   "5003": [],
   "5050": [],
@@ -786,8 +787,8 @@
   ],
   "5165": [
     "wss://bahamut-rpc.publicnode.com",
-    "https://rpc1.bahamut.io",
-    "https://rpc2.bahamut.io"
+    "https://rpc2.bahamut.io",
+    "https://rpc1.bahamut.io"
   ],
   "5177": [],
   "5197": [],
@@ -802,7 +803,8 @@
     "https://l2.nahmii.io/"
   ],
   "5700": [
-    "wss://syscoin-tanenbaum-evm.publicnode.com"
+    "wss://syscoin-tanenbaum-evm.publicnode.com",
+    "https://rpc.tanenbaum.io"
   ],
   "5729": [
     "https://rpc-testnet.hika.network"
@@ -839,8 +841,8 @@
     "https://zetachain-testnet-evm.reliableninjas.com"
   ],
   "7070": [
-    "https://planq-rpc.nodies.app",
-    "https://jsonrpc.planq.nodestake.top/"
+    "https://jsonrpc.planq.nodestake.top/",
+    "https://planq-rpc.nodies.app"
   ],
   "7171": [],
   "7181": [
@@ -864,12 +866,12 @@
   "8082": [],
   "8131": [],
   "8217": [
-    "https://public-en.node.kaia.io",
-    "https://go.getblock.io/d7094dbd80ab474ba7042603fe912332",
     "https://kaia-mainnet.rpc.grove.city/v1/803ceedf",
+    "https://go.getblock.io/d7094dbd80ab474ba7042603fe912332",
     "https://kaia.blockpi.network/v1/rpc/public",
-    "https://klaytn.api.onfinality.io/public",
-    "https://1rpc.io/klay"
+    "https://public-en.node.kaia.io",
+    "https://1rpc.io/klay",
+    "https://klaytn.api.onfinality.io/public"
   ],
   "8428": [
     "https://api.thatchain.io/mainnet",
@@ -882,7 +884,6 @@
     "https://base.meowrpc.com",
     "wss://base-rpc.publicnode.com",
     "wss://base.callstaticrpc.com",
-    "https://endpoints.omniatech.io/v1/base/mainnet/public",
     "https://base.lava.build",
     "wss://0xrpc.io/base"
   ],
@@ -922,9 +923,9 @@
   "10101": [],
   "10143": [],
   "10200": [
-    "https://rpc.chiadochain.net",
+    "wss://gnosis-chiado-rpc.publicnode.com",
     "https://rpc.chiado.gnosis.gateway.fm",
-    "wss://gnosis-chiado-rpc.publicnode.com"
+    "https://rpc.chiadochain.net"
   ],
   "10222": [
     "https://glc-dataseed.glscan.io/"
@@ -933,8 +934,8 @@
   "11011": [],
   "11111": [],
   "11235": [
-    "wss://haqq-evm.publicnode.com",
-    "https://evm.haqq.sh"
+    "https://evm.haqq.sh",
+    "wss://haqq-evm.publicnode.com"
   ],
   "12052": [
     "https://zerorpc.singularity.gold"
@@ -952,7 +953,9 @@
     "https://rpc.testnet.immutable.com"
   ],
   "14800": [],
-  "15551": [],
+  "15551": [
+    "https://api.mainnetloop.com"
+  ],
   "15557": [
     "https://api.testnet.evm.eosnetwork.com"
   ],
@@ -966,14 +969,13 @@
   ],
   "16600": [
     "https://og-testnet-evm.itrocket.net",
+    "https://lightnode-json-rpc-0g.grandvalleys.com",
     "https://0g-json-rpc-public.originstake.com",
     "https://0g-json-rpc-public.originstake.com",
-    "https://evmrpc-testnet.0g.ai",
-    "https://lightnode-json-rpc-0g.grandvalleys.com"
+    "https://evmrpc-testnet.0g.ai"
   ],
   "17000": [
-    "https://1rpc.io/holesky",
-    "https://endpoints.omniatech.io/v1/eth/holesky/public"
+    "https://1rpc.io/holesky"
   ],
   "17071": [],
   "17777": [
@@ -986,6 +988,7 @@
   "19845": [],
   "21816": [],
   "23294": [
+    "https://1rpc.io/oasis/sapphire",
     "https://sapphire.oasis.io"
   ],
   "23451": [],
@@ -993,8 +996,7 @@
   "24484": [],
   "24734": [
     "https://node1.mintme.com",
-    "https://node.1000x.ch",
-    "wss://0xrpc.io/mint"
+    "https://node.1000x.ch"
   ],
   "25327": [],
   "28882": [],
@@ -1004,6 +1006,9 @@
   "31102": [],
   "31611": [
     "https://rpc.test.mezo.org"
+  ],
+  "32323": [
+    "https://mainnet.basedaibridge.com/rpc/"
   ],
   "32520": [
     "https://rpc-bitgert.icecreamswap.com"
@@ -1060,6 +1065,7 @@
     "https://1rpc.io/celo"
   ],
   "42262": [
+    "https://1rpc.io/oasis/emerald",
     "https://emerald.oasis.io"
   ],
   "42766": [
@@ -1077,8 +1083,8 @@
   "43114": [
     "https://api.avax.network/ext/bc/C/rpc",
     "wss://avalanche-c-chain-rpc.publicnode.com",
-    "https://avax-pokt.nodies.app/ext/bc/C/rpc",
     "https://1rpc.io/avax/c",
+    "https://avax-pokt.nodies.app/ext/bc/C/rpc",
     "https://avax.meowrpc.com",
     "wss://0xrpc.io/avax"
   ],
@@ -1086,8 +1092,8 @@
     "https://rpc.formicarium.memecore.net"
   ],
   "43851": [
-    "https://endpoints.omniatech.io/v1/zkfair/testnet/public",
-    "https://testnet-rpc.zkfair.io"
+    "https://testnet-rpc.zkfair.io",
+    "https://endpoints.omniatech.io/v1/zkfair/testnet/public"
   ],
   "44787": [],
   "45000": [],
@@ -1240,9 +1246,10 @@
     "https://rpc1.icplaza.pro/"
   ],
   "167000": [
-    "https://rpc.taiko.tools",
     "https://rpc.taiko.xyz",
-    "https://taiko-json-rpc.stakely.io/"
+    "https://rpc.taiko.tools",
+    "https://taiko-json-rpc.stakely.io/",
+    "https://taiko-mainnet.rpc.porters.xyz/taiko-public"
   ],
   "167009": [
     "https://rpc.hekla.taiko.xyz"
@@ -1272,9 +1279,9 @@
     "https://dgs-rpc.digitsoul.co.th"
   ],
   "383353": [
-    "https://rpc.cheesechain.xyz",
     "https://rpc.cheesechain.xyz/http",
-    "https://cheesechain.calderachain.xyz/http"
+    "https://cheesechain.calderachain.xyz/http",
+    "https://rpc.cheesechain.xyz"
   ],
   "420420": [],
   "420666": [],
@@ -1290,8 +1297,8 @@
   ],
   "534352": [
     "https://scroll-mainnet-public.unifra.io",
-    "https://1rpc.io/scroll",
-    "https://scroll-mainnet.rpc.grove.city/v1/a7a7c8e2"
+    "https://scroll-mainnet.rpc.grove.city/v1/a7a7c8e2",
+    "https://1rpc.io/scroll"
   ],
   "543210": [],
   "560048": [
@@ -1327,8 +1334,8 @@
   "10067275": [],
   "11155111": [
     "https://eth-sepolia-public.unifra.io",
-    "https://1rpc.io/sepolia",
     "wss://ethereum-sepolia-rpc.publicnode.com",
+    "https://1rpc.io/sepolia",
     "https://endpoints.omniatech.io/v1/eth/sepolia/public"
   ],
   "11155420": [],
@@ -1362,8 +1369,8 @@
     "https://devnet.neonevm.org"
   ],
   "245022934": [
-    "https://neon-mainnet.everstake.one",
-    "https://neon-proxy-mainnet.solana.p2p.org"
+    "https://neon-proxy-mainnet.solana.p2p.org",
+    "https://neon-mainnet.everstake.one"
   ],
   "311752642": [
     "https://mainnet-rpc.oneledger.network"
@@ -1375,8 +1382,9 @@
   "999999999": [],
   "1122334455": [],
   "1313161554": [
+    "https://mainnet.aurora.dev",
     "https://1rpc.io/aurora",
-    "https://mainnet.aurora.dev"
+    "https://endpoints.omniatech.io/v1/aurora/mainnet/public"
   ],
   "1313161555": [
     "https://testnet.aurora.dev",
@@ -1384,9 +1392,9 @@
   ],
   "1313161556": [],
   "1666600000": [
+    "https://api.s0.t.hmny.io",
     "https://hmyone-pokt.nodies.app",
     "https://1rpc.io/one",
-    "https://api.s0.t.hmny.io",
     "https://api.harmony.one",
     "https://a.api.s0.t.hmny.io",
     "https://endpoints.omniatech.io/v1/harmony/mainnet-0/public"
@@ -1412,7 +1420,5 @@
   "383414847825": [
     "https://api.zeniq.network"
   ],
-  "8691942025": [
-    "https://rpc.onfa.io"
-  ]
+  "8691942025": []
 }
